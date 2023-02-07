@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+hr {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.globa_head h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.global_text_head h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.global_text p {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.global_bg {
+    background-color: #F2F2F2;
+}
+
+.global_map_bg {
+    background: url(../assets/global-presence2.jpg);
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.global_sec3_bg {
+    background-color: #FFE8E8;
+}
+
+.global_sec3_text {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.global_sec3_text i {
+    padding: 20px 0;
+}
+
+.global_sec3_text p {
+    padding: 20px 0;
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}

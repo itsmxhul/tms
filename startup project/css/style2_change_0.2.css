@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify{
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+}
+.background{
+    margin: 20px 0;
+}
+.col60{
+    width: 65%;
+}
+.col40{
+    width: 30%;
+    margin-right: 15px;
+}
+.line{
+    /* border: 2px solid; */
+    background-color: rgb(249, 250, 250);
+    padding: 0 10px;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+
+.text p{
+    margin: 15px 0;
+    font-family: sans-serif;
+    color: rgb(139, 139, 218);
+}
+.btn{
+   
+   text-align: center;
+   margin: 40px 0;
+}
+.btn a{
+    padding: 20px 90px;
+    background-color: rgb(65, 65, 164);
+    color: aliceblue;
+    border: 2px solid aqua;
+   
+}
+.btn a:hover{
+     box-shadow:2px 2px 2px 2px aqua;
+}
+.retext{
+    margin-top: 20px;
+    padding: 8px 0;
+    border-bottom: 2px solid rgb(139, 139, 218) ;
+}
+/* section 2 start  */
+
+.col-60{
+    width: 60%;
+}
+.col-40{
+    margin-left: 30px;
+    /* width: 40%; */
+}
+.retexttwo{
+    margin-top: 20px;
+}
+.retexttwo h2{
+    padding: 8px 0;
+    border-bottom: 2px solid rgb(139, 139, 218) ;
+}
+.retexttwo p{
+    margin: 40px 0;
+    font-family: sans-serif;
+    color:  rgb(139, 139, 218) ;
+}
+.protext{
+    margin: 45px 0 40px 10px;
+}
+.protext h4{
+    font-size: 20px;
+}
+.quatext p{
+    margin: 10px 0;
+    text-align: left;
+    color: rgb(139, 139, 218);
+}
+.staricon i{
+    /* margin: 3px; */
+    margin: 5px 0;
+}
+.color{
+    color: goldenrod;
+}
+.clr{
+    color:rgb(20, 20, 141)  ;
+}
+textarea{
+    margin-top: 10px;
+    border: 1px solid rgb(139, 139, 218);
+    appearance: none;
+    appearance: none;
+    display: block;
+}
+.btntwo{
+   
+    text-align: center;
+    margin: 20px 0;
+    width: 90%;
+ }
+ .btntwo a{
+     padding: 20px 90px;
+     background-color: rgb(65, 65, 164);
+     color: aliceblue;
+     border: 2px solid aqua;
+     font-size: 20px;
+    
+ }
+ .btntwo a:hover{
+      box-shadow:2px 2px 2px 2px aqua;
+ }
+ .col10{
+    width: 10%;
+ }
+ .col90{
+    width: 80%;
+ }
+ .flex{
+    flex-direction: column;
+ }
+ .col-4-0{
+    width: 40%;
+    margin: 20px 0;
+ }
+ .emilytext{
+    margin-top: 20px;
+ }
+ .images img{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 160%;
+ }
+ .te p{
+    width: 90%;
+    color: rgb(139, 139, 218);
+    line-height: 23px;
+ }
+ .padding{
+    padding: 20px;
+ }
+ .col20{
+    width: 25%;
+ }
+ .col70{
+    width: 70%;
+ }
+ .introtext p{
+    margin: 45px 0;
+    color:rgb(139, 139, 218) ;
+    font-size: 17px;
+ }
+ .viewtext p{
+    margin: 30px 0;
+    color:rgb(139, 139, 218) ;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: rgb(249, 250, 250);
+}
+.viewtext p:hover{
+    background-color: rgb(74, 74, 155);
+    color: aliceblue;
+    /* padding: 2px 20px; */
+}
+
